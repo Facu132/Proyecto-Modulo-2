@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MainLogin from './components/login/MainLogin';
+import MainPlaylist from './components/playlist/MainPlaylist';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MainLogin />
+    <MainPlaylist />
   </React.StrictMode>,
   document.getElementById('root')
 );
