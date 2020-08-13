@@ -1,11 +1,23 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import AppBarComponent from './AppBarComponent';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    NavLink
+} from "react-router-dom";
+import Form from './Form';
 
 const MainLogin = () => {
     return (
-        <div>
-            <Button>Hola</Button>
-        </div>
+        <Router>
+            <div>
+                <AppBarComponent />
+                <Form />
+            </div>
+        </Router>
+        
     );
 }
 

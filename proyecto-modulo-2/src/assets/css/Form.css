@@ -1,0 +1,16 @@
+.Form__circular-div {
+    height: 45px;
+    width: 45px;
+    background-color: #F50057;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+.Form__padding-circular-div {
+    padding: 70px 20px 1px 20px;
+}
+.Form__playlist-button {
+    height: 45px;
+    width: 450px;
+    font-weight: 900;
+}

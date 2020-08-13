@@ -7,7 +7,6 @@ import MainPlaylist from './components/playlist/MainPlaylist';
 ReactDOM.render(
   <React.StrictMode>
     <MainLogin />
-    <MainPlaylist />
   </React.StrictMode>,
   document.getElementById('root')
 );
