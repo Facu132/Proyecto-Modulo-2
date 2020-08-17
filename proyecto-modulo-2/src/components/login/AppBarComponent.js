@@ -1,7 +1,6 @@
 import React from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import './../../assets/css/AppBarComponent.css'
 import {
@@ -18,10 +17,8 @@ const AppBarComponent = () => {
             <div>
                 <Box>
                     <AppBar position="static">
-                        <Toolbar className="toolbar">
-                            <Typography variant="h6">
-                                Mateify
-                            </Typography>
+                        <Toolbar className="AppBar__toolbar">
+                            <h2 className="AppBar__title">Mateify</h2>
                         </Toolbar>
                     </AppBar>
                 </Box>

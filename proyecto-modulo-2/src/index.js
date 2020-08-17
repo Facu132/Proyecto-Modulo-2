@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MainLogin from './components/login/MainLogin';
-import MainPlaylist from './components/playlist/MainPlaylist';
+import MainLogin from './pages/MainLogin';
+import MainPlaylist from './pages/MainPlaylist';
+import LoginError from './components/login/LoginError';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainLogin />
+    <LoginError />
   </React.StrictMode>,
   document.getElementById('root')
 );

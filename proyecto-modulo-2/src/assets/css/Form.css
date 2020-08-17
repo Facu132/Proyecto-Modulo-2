@@ -9,8 +9,19 @@
 .Form__padding-circular-div {
     padding: 70px 20px 1px 20px;
 }
-.Form__playlist-button {
-    height: 45px;
-    width: 450px;
-    font-weight: 900;
+.Form__forgot-password {
+    color: #009688;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Form__account {
+    color: #C4C4C4;
+    padding: 20px 5px 5px 5px;
+}
+.Form__register-button {
+    width: 250px;
+}
+.Form__icon {
+    color: #fff;
+    margin: auto;
 }

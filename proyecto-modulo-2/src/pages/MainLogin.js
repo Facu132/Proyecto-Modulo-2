@@ -1,5 +1,6 @@
 import React from 'react';
-import AppBarComponent from './AppBarComponent';
+import AppBarComponent from './../components/login/AppBarComponent';
+import Form from './../components/login/Form';
 import {
     BrowserRouter as Router,
     Switch,
@@ -7,7 +8,6 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
-import Form from './Form';
 
 const MainLogin = () => {
     return (

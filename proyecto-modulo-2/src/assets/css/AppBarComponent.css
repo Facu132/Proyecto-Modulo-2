@@ -1,4 +1,7 @@
-.toolbar {
+.AppBar__toolbar {
     display: flex;
     justify-content: center;
+}
+.AppBar__title::before {
+    content: url('./../images/Icono-Mateify-Blanco.png');
 }
