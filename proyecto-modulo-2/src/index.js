@@ -7,7 +7,7 @@ import LoginError from './components/login/LoginError';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LoginError />
+    <MainPlaylist />
   </React.StrictMode>,
   document.getElementById('root')
 );

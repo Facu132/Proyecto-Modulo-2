@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import './../../assets/css/LoginError.css';
 import HttpsOutlinedIcon from '@material-ui/icons/HttpsOutlined';
-import AppBarComponent from './AppBarComponent';
+import AppBarComponentLogin from './AppBarComponentLogin';
 import {
     BrowserRouter as Router,
     Switch,
@@ -15,7 +15,7 @@ const LoginError = () => {
     return(
         <Router>
             <div>
-            <AppBarComponent />
+            <AppBarComponentLogin />
                 <Box>
                     <div className="LoginError__circular-div"><HttpsOutlinedIcon className="LoginError__icon"/></div>
                     <div className="LoginError__messages">

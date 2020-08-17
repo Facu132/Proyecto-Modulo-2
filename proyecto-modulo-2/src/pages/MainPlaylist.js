@@ -1,10 +1,21 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import AppBarComponentPlaylist from './../components/playlist/AppBarComponentPlaylist';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    NavLink,
+} from "react-router-dom";
 
 const MainPlaylist = () => {
     return (
         <div>
-            <Button>Hola</Button>
+            <Router>
+                <div>
+                    <AppBarComponentPlaylist />
+                </div>
+            </Router>
         </div>
     );
 }

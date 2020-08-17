@@ -1,5 +1,5 @@
 import React from 'react';
-import AppBarComponent from './../components/login/AppBarComponent';
+import AppBarComponentLogin from './../components/login/AppBarComponentLogin';
 import Form from './../components/login/Form';
 import {
     BrowserRouter as Router,
@@ -13,7 +13,7 @@ const MainLogin = () => {
     return (
         <Router>
             <div>
-                <AppBarComponent />
+                <AppBarComponentLogin />
                 <Form />
             </div>
         </Router>
